@@ -155,7 +155,7 @@ address {
 /* header */
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('./images/index/hero/Img.jpg');
+    url('/images/index/hero/Img.jpg');
   text-align: center;
   background-color: #c4c4c4;
   background-repeat: no-repeat;
