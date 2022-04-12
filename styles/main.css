@@ -31,12 +31,12 @@ img {
   text-decoration: none;
 }
 .title {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
 }
 address {
   font-style: normal;
@@ -137,14 +137,14 @@ address {
   margin-left: 50px;
 }
 .header-address-item > a {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--complementary-color);
   fill: #757575;
-  display: flex;
-  align-items: center;
 }
 .header-address-item > a:hover,
 .header-address-item > a:focus {
@@ -157,6 +157,9 @@ address {
 /* header */
 .hero {
   max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/index/hero/Img.jpg');
   text-align: center;
@@ -164,12 +167,11 @@ address {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
 }
 .main-title {
+  width: 696px;
   margin: 0 auto;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -177,12 +179,10 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 30px;
-  width: 696px;
 }
 button.order-btn {
-  margin: 0 auto;
   min-width: 200px;
+  margin: 0 auto;
   padding: 10px 16px;
   color: #ffffff;
   background-color: var(--primary-brand-color);
@@ -206,7 +206,7 @@ button.order-btn {
 .advantages-item:nth-child(n + 5) {
   margin-top: 30px;
 }
-.advantaes-thumb {
+.advantages-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,12 +216,12 @@ button.order-btn {
   border-radius: 4px;
 }
 .advantage-title {
+  margin-bottom: 10px;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 .advantage-text {
   font-size: 14px;
@@ -269,11 +269,11 @@ button.order-btn {
   padding: 30px 0;
 }
 .team-member-name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
 }
 .team-member-position {
   font-weight: normal;
@@ -305,12 +305,12 @@ button.order-btn {
   margin-left: 70px;
 }
 address {
+  margin-top: 20px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 20px;
 }
 .footer-address-list {
   margin-top: 9px;
@@ -322,13 +322,13 @@ address {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-title {
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 20px;
 }
 .footer-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -339,9 +339,6 @@ address {
 /* footer */
 .examples {
   padding: 94px 0;
-}
-.examples-title {
-  display: none;
 }
 .examples-btns-list {
   display: flex;
@@ -399,11 +396,11 @@ button.example-btn:focus {
   color: #212121;
 }
 .example-name {
+  margin-bottom: 4px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-bottom: 4px;
 }
 .example-type {
   font-weight: normal;
