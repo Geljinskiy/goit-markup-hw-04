@@ -99,6 +99,7 @@ address {
 .soc-links-list {
   display: flex;
   justify-content: space-between;
+  color: var(--tertiary-light-color);
 }
 /* общие настройки */
 .header {
