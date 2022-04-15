@@ -87,7 +87,6 @@ address {
   border-radius: 50%;
   cursor: pointer;
 }
-
 .soc-link:hover,
 .soc-link:focus {
   background-color: var(--primary-brand-color);
